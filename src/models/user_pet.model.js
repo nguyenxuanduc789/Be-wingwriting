@@ -1,5 +1,5 @@
 'use strict';
-const { model, Schema } = require('mongoose');
+const { model, Schema ,Types} = require('mongoose');
 const DOCUMENT_NAME = 'UserPet';
 const COLLECTION_NAME = 'UserPets';
 
