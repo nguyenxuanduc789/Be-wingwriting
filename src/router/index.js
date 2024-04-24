@@ -13,6 +13,8 @@ const router = express.Router();
 
 //check permission
 // router.use(permission('0000'));
+router.use('/api/v1', require('./pets'))
+router.use('/api/v1', require('./country'))
 router.use('/api/v1', require('./auth'))
 router.use('/api/v1', require('./user'))
 // router.get('', (req, res, next) => {
